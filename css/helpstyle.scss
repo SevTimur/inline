@@ -1,0 +1,56 @@
+
+/*Вспомогательные*/
+
+.p-l-4 {
+  padding-left: 4px;
+}
+.p-l-8 {
+  padding-left: 8px;
+}
+.p-r-4 {
+  padding-right: 4px;
+}
+.p-r-24 {
+  padding-right: 24px;
+}
+.h-32 {
+  height: 32px;
+}
+.h-56 {
+  height: 56px;
+}
+.m-b-16 {
+  margin-bottom: 16px;
+}
+.m-t-b-8 {
+  margin: 8px 0;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.none768 {
+  @media (max-width: 767px) {
+    & {
+      display: none;
+    }
+  }
+}
+.none576 {
+  @media (max-width: 575px) {
+    & {
+      display: none;
+    }
+  }
+}
+.show-576 {
+  @media (min-width: 576px) {
+    & {
+      display: none;
+    }
+  }
+}
+.h-w-16 {
+  height: 16px;
+  width: 16px;
+}
+/*--------------------*/
