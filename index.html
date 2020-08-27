@@ -28,7 +28,7 @@
     <div class="container-fluid">
       <div class="wrapper">
         <div class="wrapper__main">
-          <div class="wrapper__main-breadcrumb">
+          <div class="breadcrumb-block">
             <ul class="breadcrumb">
               <li class="breadcrumb-item">
                 <a href="main.html">Главная</a>
@@ -41,93 +41,94 @@
               </li>
             </ul>
           </div>
-          <div class="wrapper__main-search">
+          <div class="search-form">
             <form>
               <input class="input-style w-100" type="text" name="" value="" placeholder="Поиск по компаниям">
-              <a href="" class="wrapper__main-search-button link-hover-search" type="button" name="button">
+              <a href="" class="search-form__button" type="button" name="button">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M15.5 14H14.71L14.43 13.73C15.4439 12.554 16.0011 11.0527 16 9.5C16 8.21442 15.6188 6.95772 14.9046 5.8888C14.1903 4.81988 13.1752 3.98676 11.9874 3.49479C10.7997 3.00282 9.49279 2.87409 8.23191 3.1249C6.97104 3.3757 5.81285 3.99477 4.90381 4.90381C3.99477 5.81285 3.3757 6.97104 3.1249 8.23191C2.87409 9.49279 3.00282 10.7997 3.49479 11.9874C3.98676 13.1752 4.81988 14.1903 5.8888 14.9046C6.95772 15.6188 8.21442 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z" fill="white"/>
                 </svg>
               </a>
             </form>
           </div>
-          <div class="wrapper__main-backbutton d-flex link-hover">
+          <div class="back-button link-hover">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M16 9.35124H6.49462L9.94396 5.91735L9.02248 5L4 10L9.02248 15L9.94396 14.0827L6.49462 10.6488H16V9.35124Z" fill="#005FAE"/>
             </svg>
-            <div class="wrapper__main-backbutton-text">
-              <span>К каталогу компаний</span>
+            <div class="back-button__text">
+              К каталогу компаний
             </div>
           </div>
-          <div class="wrapper__main-namecompany d-flex">
+          <div class="name-company">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M21.9025 12.6673L20.7237 10.7953L21.4229 8.69439C21.469 8.55543 21.466 8.4047 21.4144 8.26773C21.3628 8.13075 21.2657 8.01595 21.1396 7.94277L19.2321 6.83566L18.8813 4.64801C18.8577 4.50337 18.7853 4.37134 18.6763 4.27414C18.5674 4.17694 18.4284 4.12052 18.283 4.11438L16.0828 4.02765L14.7628 2.25409C14.6756 2.13673 14.5506 2.05343 14.4093 2.01838C14.2679 1.98333 14.1189 1.99871 13.9875 2.06189L12 3.01352L10.0117 2.06111C9.88018 1.99861 9.73124 1.98368 9.59002 2.01883C9.4488 2.05398 9.32393 2.13707 9.23646 2.25409L7.91638 4.02765L5.71626 4.11438C5.57091 4.12023 5.43203 4.17647 5.32313 4.27357C5.21424 4.37067 5.14202 4.50267 5.11869 4.64723L4.76792 6.83488L2.86037 7.94199C2.73416 8.01505 2.63693 8.1298 2.58516 8.26678C2.53339 8.40377 2.53027 8.55456 2.57633 8.6936L3.27556 10.7945L2.0975 12.6673C2.01979 12.7913 1.987 12.9385 2.00467 13.084C2.02235 13.2295 2.08941 13.3644 2.19451 13.4658L3.7831 14.9995L3.6046 17.2075C3.59273 17.3536 3.63136 17.4993 3.71394 17.6201C3.79653 17.7408 3.91801 17.8291 4.05782 17.87L6.17258 18.4833L7.03323 20.5233C7.08973 20.6585 7.19113 20.7698 7.32009 20.838C7.44905 20.9063 7.59755 20.9274 7.74022 20.8976L9.89766 20.4522L11.6003 21.8562C11.716 21.9508 11.858 22 12 22C12.142 22 12.2833 21.9508 12.3997 21.8562L14.1023 20.4522L16.2598 20.8976C16.5524 20.9601 16.8496 20.8015 16.9668 20.5233L17.8274 18.4833L19.9422 17.87C20.0821 17.8292 20.2036 17.741 20.2862 17.6202C20.3689 17.4994 20.4074 17.3536 20.3954 17.2075L20.2169 14.9995L21.8055 13.4658C21.9106 13.3644 21.9776 13.2295 21.9953 13.084C22.013 12.9385 21.9802 12.7913 21.9025 12.6673ZM16.5609 9.61164L12.1443 16.273C11.9775 16.5215 11.7191 16.6879 11.4622 16.6879C11.2061 16.6879 10.9197 16.5434 10.7374 16.359L7.49498 13.0423C7.3887 12.9326 7.32922 12.7854 7.32922 12.6322C7.32922 12.4789 7.3887 12.3317 7.49498 12.222L8.2951 11.4016C8.34753 11.3485 8.40987 11.3064 8.47852 11.2777C8.54718 11.2489 8.6208 11.2341 8.69516 11.2341C8.76951 11.2341 8.84314 11.2489 8.91179 11.2777C8.98045 11.3064 9.04278 11.3485 9.09521 11.4016L11.2053 13.5596L14.6852 8.31076C14.7264 8.24817 14.7796 8.19448 14.8417 8.15281C14.9038 8.11115 14.9735 8.08235 15.0467 8.06809C15.12 8.05384 15.1953 8.05441 15.2684 8.06979C15.3414 8.08516 15.4106 8.11502 15.4721 8.15763L16.4103 8.80689C16.6688 8.98659 16.7355 9.34834 16.5609 9.61164Z" fill="#005FAE"/>
             </svg>
-            <div class="wrapper__main-namecompany-text">
-              <span>Преображенский МПК, ООО</span>
+            <div class="name-company__text">
+              Преображенский МПК, ООО
             </div>
           </div>
-          <div class="wrapper__main_visit-etc d-flex justify-content-between">
-            <div class="wrapper__main_visit-etc_visit-review d-flex">
-              <div class="d-flex align-items-center p-r-24">
+          <!-- Строка с просмотром страницы, отзывами и Работаете тут? -->
+          <div class="flex-wrap d-flex justify-content-between m-b-30">
+            <div class="d-flex">
+              <div class="view-company p-r-24">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M10 5.1792C5.28375 5.1792 1.5625 10.0004 1.5625 10.0004C1.5625 10.0004 5.28375 14.8223 10 14.8223C13.6062 14.8223 18.4375 10.0004 18.4375 10.0004C18.4375 10.0004 13.6062 5.1792 10 5.1792ZM10 13.0042C8.34375 13.0042 6.99563 11.6567 6.99563 10.0004C6.99563 8.3442 8.34375 6.99607 10 6.99607C11.6562 6.99607 13.0044 8.3442 13.0044 10.0004C13.0044 11.6567 11.6562 13.0048 10 13.0048V13.0042ZM10 8.2467C9.76695 8.2423 9.53536 8.2844 9.31877 8.37054C9.10218 8.45669 8.90494 8.58514 8.73857 8.7484C8.5722 8.91166 8.44004 9.10644 8.34983 9.32137C8.25961 9.53629 8.21314 9.76705 8.21314 10.0001C8.21314 10.2332 8.25961 10.464 8.34983 10.6789C8.44004 10.8938 8.5722 11.0886 8.73857 11.2519C8.90494 11.4151 9.10218 11.5436 9.31877 11.6297C9.53536 11.7159 9.76695 11.758 10 11.7536C10.4593 11.7449 10.8969 11.5564 11.2186 11.2285C11.5404 10.9006 11.7206 10.4595 11.7206 10.0001C11.7206 9.54075 11.5404 9.0997 11.2186 8.77181C10.8969 8.44392 10.4593 8.25537 10 8.2467Z" fill="#999999"/>
                 </svg>
-                <div class="wrapper__main_visit-etc_visit-review_visit-text p-l-4">
-                  <span>578 (+2)</span>
+                <div class="view-company__text">
+                  578 (+2)
                 </div>
               </div>
-              <div class="d-flex align-items-center link-hover">
+              <div class="give-feedback link-hover">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M5.18911 14.077L4.55551 15.397C4.43231 15.6434 4.48511 15.9426 4.66111 16.1538C4.80191 16.2946 4.97791 16.3826 5.17151 16.3826C5.24191 16.3826 5.32991 16.365 5.40031 16.3474L8.44511 15.2562C8.88511 15.3266 9.34271 15.3618 9.80031 15.3618C13.9187 15.3618 17.2803 12.6338 17.2803 9.28977C17.2803 5.94577 13.9187 3.21777 9.80031 3.21777C5.68191 3.21777 2.32031 5.94577 2.32031 9.28977C2.32031 11.1554 3.39391 12.933 5.18911 14.077ZM9.80031 4.27377C13.3379 4.27377 16.2243 6.52657 16.2243 9.28977C16.2243 12.053 13.3379 14.3058 9.80031 14.3058C9.36031 14.3058 8.93791 14.2706 8.51551 14.2002C8.40991 14.1826 8.28671 14.2002 8.18111 14.2354L5.89311 15.045L6.28031 14.2178C6.43871 13.901 6.31551 13.4962 5.99871 13.3202C4.34431 12.3698 3.37631 10.8562 3.37631 9.27217C3.37631 6.52657 6.26271 4.27377 9.80031 4.27377Z" fill="#999999"/>
                   <line x1="6.5" y1="8.5" x2="12.5" y2="8.5" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
                   <line x1="6.5" y1="10.5" x2="10.5" y2="10.5" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                <div class="wrapper__main_visit-etc_visit-review_review-text p-l-4">
-                  <span>Оставить отзыв</span>
+                <div class="give-feedback__text">
+                  Оставить отзыв
                 </div>
               </div>
             </div>
-            <div class="wrapper__main_visit-etc_work-this">
-              <div class="wrapper__main_visit-etc_work-this-button">Работаете в этой компании?</div>
+            <div class="js-work-this btn btn_green">
+              Работаете в этой компании?
             </div>
           </div>
           <div class="row">
             <div class="col-lg-8">
-              <div class="wrapper__main_notice w-100">
-                <div class="wrapper__main_notice-title">
+              <div class="advertisement">
+                <div class="advertisement__title">
                   Последние объявления сотрудников компании
                 </div>
-                <div class="wrapper__main_notice-line"></div>
-                <div class="wrapper__main_notice-table">
-                  <div class="wrapper__main_notice-table-title">
+                <div class="table">
+                  <div class="table__header">
                     <div class="row align-items-center h-32">
                       <div class="col-2 col-md-1 column-1">
-
                       </div>
                       <div class="col-12 col-sm-6 col-md-5 column-5">
                         Объявление
                       </div>
-                      <div class="col-2 col-md-1 column-1 none576">
+                      <div class="col-2 col-md-1 column-1 hidden-576">
                         Время
                       </div>
-                      <div class="col-2 col-md-1 column-1 none576">
+                      <div class="col-2 col-md-1 column-1 hidden-576">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M8 4.14331C4.227 4.14331 1.25 8.00031 1.25 8.00031C1.25 8.00031 4.227 11.8578 8 11.8578C10.885 11.8578 14.75 8.00031 14.75 8.00031C14.75 8.00031 10.885 4.14331 8 4.14331ZM8 10.4033C6.675 10.4033 5.5965 9.32531 5.5965 8.00031C5.5965 6.67531 6.675 5.59681 8 5.59681C9.325 5.59681 10.4035 6.67531 10.4035 8.00031C10.4035 9.32531 9.325 10.4038 8 10.4038V10.4033ZM8 6.59731C7.81356 6.59379 7.62829 6.62747 7.45502 6.69639C7.28174 6.7653 7.12395 6.86806 6.99085 6.99867C6.85776 7.12928 6.75203 7.2851 6.67986 7.45704C6.60769 7.62898 6.57052 7.81359 6.57052 8.00006C6.57052 8.18653 6.60769 8.37114 6.67986 8.54308C6.75203 8.71502 6.85776 8.87085 6.99085 9.00145C7.12395 9.13206 7.28174 9.23482 7.45502 9.30374C7.62829 9.37265 7.81356 9.40633 8 9.40281C8.36745 9.39587 8.7175 9.24503 8.97491 8.98272C9.23231 8.72041 9.37652 8.36757 9.37652 8.00006C9.37652 7.63255 9.23231 7.27971 8.97491 7.0174C8.7175 6.75509 8.36745 6.60425 8 6.59731Z" fill="#424242"/>
                         </svg>
                       </div>
-                      <div class="col-md-4 column-4 none768">
+                      <div class="col-md-4 column-4 hidden-768">
                         Опубликовал
                       </div>
                     </div>
                   </div>
-                  <div class="wrapper__main_notice-table-item">
+                  <div class="table__item">
                     <div class="row align-items-center">
                       <div class="col-sm-2 col-md-1 column-1">
-                        <a href="#" class="wrapper__main_notice-table-item-button-sell d-flex link-hover">Продам</a>
+                        <a href="#" class="item__button item__button_sell link-hover">Продам</a>
                       </div>
-                      <div class="col-sm-6 col-md-5 column-5 wrapper__main_notice-table-item-name-product">
-                        <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                      <div class="col-sm-6 col-md-5 column-5 ">
+                        <div class="item__name-product">
+                          <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                        </div>
                       </div>
                       <div class="col-6 col-sm-2 col-md-1 column-1">
                         <span class="show-576 m-t-b-8">Время: </span><span>5 фев</span>
@@ -137,12 +138,12 @@
                       </div>
                       <div class="col-12 col-md-4 column-4">
                         <div class="d-flex">
-                          <img src="img/photo.png" class="wrapper__main_notice-table-item-photo" alt="">
+                          <img src="img/photo.png" class="item__photo" alt="">
                           <div class="d-flex flex-column p-l-8 overflow-hidden justify-content-center">
-                            <div class="wrapper__main_notice-table-item-fio">
+                            <div class="item__fio">
                               <a href="" class="link-hover">Зубенко Михаил Петрович</a>
                             </div>
-                            <div class="wrapper__main_notice-table-item-company">
+                            <div class="item__company">
                               Орехово-Зуевский мясокомбинат Желудки куриные очищенные 60 руб.
                             </div>
                           </div>
@@ -150,13 +151,15 @@
                       </div>
                     </div>
                   </div>
-                  <div class="wrapper__main_notice-table-item">
+                  <div class="table__item">
                     <div class="row align-items-center">
                       <div class="col-sm-2 col-md-1 column-1">
-                        <a href="#" class="wrapper__main_notice-table-item-button-buy d-flex link-hover">Куплю</a>
+                        <a href="#" class="item__button item__button_buy link-hover">Куплю</a>
                       </div>
-                      <div class="col-sm-6 col-md-5 column-5 wrapper__main_notice-table-item-name-product">
-                        <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                      <div class="col-sm-6 col-md-5 column-5 ">
+                        <div class="item__name-product">
+                          <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                        </div>
                       </div>
                       <div class="col-6 col-sm-2 col-md-1 column-1">
                         <span class="show-576 m-t-b-8">Время: </span><span>5 фев</span>
@@ -166,12 +169,12 @@
                       </div>
                       <div class="col-12 col-md-4 column-4">
                         <div class="d-flex">
-                          <img src="img/photo.png" class="wrapper__main_notice-table-item-photo" alt="">
+                          <img src="img/photo.png" class="item__photo" alt="">
                           <div class="d-flex flex-column p-l-8 overflow-hidden justify-content-center">
-                            <div class="wrapper__main_notice-table-item-fio">
+                            <div class="item__fio">
                               <a href="" class="link-hover">Зубенко Михаил Петрович</a>
                             </div>
-                            <div class="wrapper__main_notice-table-item-company">
+                            <div class="item__company">
                               Орехово-Зуевский мясокомбинат Желудки куриные очищенные 60 руб.
                             </div>
                           </div>
@@ -179,13 +182,15 @@
                       </div>
                     </div>
                   </div>
-                  <div class="wrapper__main_notice-table-item">
+                  <div class="table__item">
                     <div class="row align-items-center">
                       <div class="col-sm-2 col-md-1 column-1">
-                        <a href="#" class="wrapper__main_notice-table-item-button-sell d-flex link-hover">Продам</a>
+                        <a href="#" class="item__button item__button_sell link-hover">Продам</a>
                       </div>
-                      <div class="col-sm-6 col-md-5 column-5 wrapper__main_notice-table-item-name-product">
-                        <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                      <div class="col-sm-6 col-md-5 column-5 ">
+                        <div class="item__name-product">
+                          <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                        </div>
                       </div>
                       <div class="col-6 col-sm-2 col-md-1 column-1">
                         <span class="show-576 m-t-b-8">Время: </span><span>5 фев</span>
@@ -195,12 +200,12 @@
                       </div>
                       <div class="col-12 col-md-4 column-4">
                         <div class="d-flex">
-                          <img src="img/photo.png" class="wrapper__main_notice-table-item-photo" alt="">
+                          <img src="img/photo.png" class="item__photo" alt="">
                           <div class="d-flex flex-column p-l-8 overflow-hidden justify-content-center">
-                            <div class="wrapper__main_notice-table-item-fio">
+                            <div class="item__fio">
                               <a href="" class="link-hover">Зубенко Михаил Петрович</a>
                             </div>
-                            <div class="wrapper__main_notice-table-item-company">
+                            <div class="item__company">
                               Орехово-Зуевский мясокомбинат Желудки куриные очищенные 60 руб.
                             </div>
                           </div>
@@ -208,13 +213,15 @@
                       </div>
                     </div>
                   </div>
-                  <div class="wrapper__main_notice-table-item">
+                  <div class="table__item">
                     <div class="row align-items-center">
                       <div class="col-sm-2 col-md-1 column-1">
-                        <a href="#" class="wrapper__main_notice-table-item-button-buy d-flex link-hover">Куплю</a>
+                        <a href="#" class="item__button item__button_buy link-hover">Куплю</a>
                       </div>
-                      <div class="col-sm-6 col-md-5 column-5 wrapper__main_notice-table-item-name-product">
-                        <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                      <div class="col-sm-6 col-md-5 column-5 ">
+                        <div class="item__name-product">
+                          <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                        </div>
                       </div>
                       <div class="col-6 col-sm-2 col-md-1 column-1">
                         <span class="show-576 m-t-b-8">Время: </span><span>5 фев</span>
@@ -224,12 +231,12 @@
                       </div>
                       <div class="col-12 col-md-4 column-4">
                         <div class="d-flex">
-                          <img src="img/photo.png" class="wrapper__main_notice-table-item-photo" alt="">
+                          <img src="img/photo.png" class="item__photo" alt="">
                           <div class="d-flex flex-column p-l-8 overflow-hidden justify-content-center">
-                            <div class="wrapper__main_notice-table-item-fio">
+                            <div class="item__fio">
                               <a href="" class="link-hover">Зубенко Михаил Петрович</a>
                             </div>
-                            <div class="wrapper__main_notice-table-item-company">
+                            <div class="item__company">
                               Орехово-Зуевский мясокомбинат Желудки куриные очищенные 60 руб.
                             </div>
                           </div>
@@ -237,13 +244,15 @@
                       </div>
                     </div>
                   </div>
-                  <div class="wrapper__main_notice-table-item">
+                  <div class="table__item">
                     <div class="row align-items-center">
                       <div class="col-sm-2 col-md-1 column-1">
-                        <a href="#" class="wrapper__main_notice-table-item-button-sell d-flex link-hover">Продам</a>
+                        <a href="#" class="item__button item__button_sell link-hover">Продам</a>
                       </div>
-                      <div class="col-sm-6 col-md-5 column-5 wrapper__main_notice-table-item-name-product">
-                        <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                      <div class="col-sm-6 col-md-5 column-5 ">
+                        <div class="item__name-product">
+                          <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                        </div>
                       </div>
                       <div class="col-6 col-sm-2 col-md-1 column-1">
                         <span class="show-576 m-t-b-8">Время: </span><span>5 фев</span>
@@ -253,12 +262,12 @@
                       </div>
                       <div class="col-12 col-md-4 column-4">
                         <div class="d-flex">
-                          <img src="img/photo.png" class="wrapper__main_notice-table-item-photo" alt="">
+                          <img src="img/photo.png" class="item__photo" alt="">
                           <div class="d-flex flex-column p-l-8 overflow-hidden justify-content-center">
-                            <div class="wrapper__main_notice-table-item-fio">
+                            <div class="item__fio">
                               <a href="" class="link-hover">Зубенко Михаил Петрович</a>
                             </div>
-                            <div class="wrapper__main_notice-table-item-company">
+                            <div class="item__company">
                               Орехово-Зуевский мясокомбинат Желудки куриные очищенные 60 руб.
                             </div>
                           </div>
@@ -266,13 +275,15 @@
                       </div>
                     </div>
                   </div>
-                  <div class="wrapper__main_notice-table-item">
+                  <div class="table__item">
                     <div class="row align-items-center">
                       <div class="col-sm-2 col-md-1 column-1">
-                        <a href="#" class="wrapper__main_notice-table-item-button-buy d-flex link-hover">Куплю</a>
+                        <a href="#" class="item__button item__button_buy link-hover">Куплю</a>
                       </div>
-                      <div class="col-sm-6 col-md-5 column-5 wrapper__main_notice-table-item-name-product">
-                        <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                      <div class="col-sm-6 col-md-5 column-5 ">
+                        <div class="item__name-product">
+                          <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                        </div>
                       </div>
                       <div class="col-6 col-sm-2 col-md-1 column-1">
                         <span class="show-576 m-t-b-8">Время: </span><span>5 фев</span>
@@ -282,12 +293,12 @@
                       </div>
                       <div class="col-12 col-md-4 column-4">
                         <div class="d-flex">
-                          <img src="img/photo.png" class="wrapper__main_notice-table-item-photo" alt="">
+                          <img src="img/photo.png" class="item__photo" alt="">
                           <div class="d-flex flex-column p-l-8 overflow-hidden justify-content-center">
-                            <div class="wrapper__main_notice-table-item-fio">
+                            <div class="item__fio">
                               <a href="" class="link-hover">Зубенко Михаил Петрович</a>
                             </div>
-                            <div class="wrapper__main_notice-table-item-company">
+                            <div class="item__company">
                               Орехово-Зуевский мясокомбинат Желудки куриные очищенные 60 руб.
                             </div>
                           </div>
@@ -295,13 +306,15 @@
                       </div>
                     </div>
                   </div>
-                  <div class="wrapper__main_notice-table-item">
+                  <div class="table__item">
                     <div class="row align-items-center">
                       <div class="col-sm-2 col-md-1 column-1">
-                        <a href="#" class="wrapper__main_notice-table-item-button-sell d-flex link-hover">Продам</a>
+                        <a href="#" class="item__button item__button_sell link-hover">Продам</a>
                       </div>
-                      <div class="col-sm-6 col-md-5 column-5 wrapper__main_notice-table-item-name-product">
-                        <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                      <div class="col-sm-6 col-md-5 column-5 ">
+                        <div class="item__name-product">
+                          <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                        </div>
                       </div>
                       <div class="col-6 col-sm-2 col-md-1 column-1">
                         <span class="show-576 m-t-b-8">Время: </span><span>5 фев</span>
@@ -311,12 +324,12 @@
                       </div>
                       <div class="col-12 col-md-4 column-4">
                         <div class="d-flex">
-                          <img src="img/photo.png" class="wrapper__main_notice-table-item-photo" alt="">
+                          <img src="img/photo.png" class="item__photo" alt="">
                           <div class="d-flex flex-column p-l-8 overflow-hidden justify-content-center">
-                            <div class="wrapper__main_notice-table-item-fio">
+                            <div class="item__fio">
                               <a href="" class="link-hover">Зубенко Михаил Петрович</a>
                             </div>
-                            <div class="wrapper__main_notice-table-item-company">
+                            <div class="item__company">
                               Орехово-Зуевский мясокомбинат Желудки куриные очищенные 60 руб.
                             </div>
                           </div>
@@ -324,13 +337,15 @@
                       </div>
                     </div>
                   </div>
-                  <div class="wrapper__main_notice-table-item">
+                  <div class="table__item">
                     <div class="row align-items-center">
                       <div class="col-sm-2 col-md-1 column-1">
-                        <a href="#" class="wrapper__main_notice-table-item-button-buy d-flex link-hover">Куплю</a>
+                        <a href="#" class="item__button item__button_buy link-hover">Куплю</a>
                       </div>
-                      <div class="col-sm-6 col-md-5 column-5 wrapper__main_notice-table-item-name-product">
-                        <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                      <div class="col-sm-6 col-md-5 column-5 ">
+                        <div class="item__name-product">
+                          <a href="" class="link-hover">Желудки куриные очищенные 60 руб.</a>
+                        </div>
                       </div>
                       <div class="col-6 col-sm-2 col-md-1 column-1">
                         <span class="show-576 m-t-b-8">Время: </span><span>5 фев</span>
@@ -340,12 +355,12 @@
                       </div>
                       <div class="col-12 col-md-4 column-4">
                         <div class="d-flex">
-                          <img src="img/photo.png" class="wrapper__main_notice-table-item-photo" alt="">
+                          <img src="img/photo.png" class="item__photo" alt="">
                           <div class="d-flex flex-column p-l-8 overflow-hidden justify-content-center">
-                            <div class="wrapper__main_notice-table-item-fio">
+                            <div class="item__fio">
                               <a href="" class="link-hover">Зубенко Михаил Петрович</a>
                             </div>
-                            <div class="wrapper__main_notice-table-item-company">
+                            <div class="item__company">
                               Орехово-Зуевский мясокомбинат Желудки куриные очищенные 60 руб.
                             </div>
                           </div>
@@ -355,12 +370,11 @@
                   </div>
                 </div>
               </div>
-              <div class="wrapper__main_foto w-100">
-                <div class="wrapper__main_foto-title">
+              <div class="photo-gallery">
+                <div class="photo-gallery__title">
                   Фото продукции
                 </div>
-                <div class="wrapper__main_foto-line"></div>
-                <div class="wrapper__main_foto-item d-flex">
+                <div class="photo-gallery__items">
                   <img src="img/img1.png" alt="">
                   <img src="img/img.png" alt="">
                   <img src="img/img2.png" alt="">
@@ -376,47 +390,43 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="wrapper__main-logo d-flex">
-                <img src="img/logo.png" alt="">
-              </div>
-              <div class="wrapper__main-info w-100">
-                <p><b>Название компании:</b> ООО “Преображенский Мясоперерабатывающий Комбинат”</p>
-                <p><b>ОГРН (ОГРНИП):</b> 1166733069612</p>
-                <p><b>ИНН:</b> 6726022894</p>
-                <p><b>Страна:</b> Россия</p>
-                <p><b>Регион:</b> Тверская область</p>
-                <p><b>Описание:</b> Преображенский МПК - современное мясоперерабатывающее предприятие в Тверской области.
-                  Введен в эксплуатацию в 2013 г. Основу ассортимента составляют порционные и мелкокусковые полуфабрикаты из охлажденной свинины. Продукция мясокомбината является частью вертикально-интегрированного холдинга КоПИТАНИЯФ.
-                  Предприятия холдинга образуют полный цикл производства от выращивания зерна и производства комбикормов до производства свежего мяса, что позволяет снизить себестоимость и гарантировать безопасность и высокое качество продукции.</p>
-                  <p><b>Виды деятольности:</b>
-                    <li>– Оборудование, упаковка</li>
-                    <li>– Оптовая торговля</li>
-                    <li>– Производитель готовой продукции</li>
-                    <li>– Производитель мясного сырья</li>
-                    <li>– Розничная торговля</li>
-                  </p>
-
-
-
-                  <p><b>Виды продукции:</b>
-                    <li>– Свинина</li>
-                    <li>– Замороженное и охлажденное мясо</li>
-                    <li>– Мясные полуфабрикаты</li>
-                    <li>– Колбасы, сосиски, деликатесы</li>
-
-
-
-                  </p>
-                  <p><b>Товары и услуги:</b> Мясо замороженное, мясо охлажденное, свинина, субпродукты</p>
+              <div class="info-company">
+                <div class="info-company__logo">
+                  <img src="img/logo.png" alt="">
                 </div>
+                <div class="info-company__text">
+                  <p><b>Название компании:</b> ООО “Преображенский Мясоперерабатывающий Комбинат”</p>
+                  <p><b>ОГРН (ОГРНИП):</b> 1166733069612</p>
+                  <p><b>ИНН:</b> 6726022894</p>
+                  <p><b>Страна:</b> Россия</p>
+                  <p><b>Регион:</b> Тверская область</p>
+                  <p><b>Описание:</b> Преображенский МПК - современное мясоперерабатывающее предприятие в Тверской области.
+                    Введен в эксплуатацию в 2013 г. Основу ассортимента составляют порционные и мелкокусковые полуфабрикаты из охлажденной свинины. Продукция мясокомбината является частью вертикально-интегрированного холдинга КоПИТАНИЯФ.
+                    Предприятия холдинга образуют полный цикл производства от выращивания зерна и производства комбикормов до производства свежего мяса, что позволяет снизить себестоимость и гарантировать безопасность и высокое качество продукции.</p>
+                    <p><b>Виды деятольности:</b>
+                      <li>– Оборудование, упаковка</li>
+                      <li>– Оптовая торговля</li>
+                      <li>– Производитель готовой продукции</li>
+                      <li>– Производитель мясного сырья</li>
+                      <li>– Розничная торговля</li>
+                    </p>
+                    <p><b>Виды продукции:</b>
+                      <li>– Свинина</li>
+                      <li>– Замороженное и охлажденное мясо</li>
+                      <li>– Мясные полуфабрикаты</li>
+                      <li>– Колбасы, сосиски, деликатесы</li>
+                    </p>
+                    <p><b>Товары и услуги:</b> Мясо замороженное, мясо охлажденное, свинина, субпродукты</p>
+                  </div>
+              </div>
               </div>
             </div>
           </div>
-          <div class="wrapper__promo">
-            <div class="wrapper__promo-item">
+          <div class="wrapper__promo promo">
+            <div class="promo__item">
               Реклама
             </div>
-            <div class="wrapper__promo-item">
+            <div class="promo__item">
               Реклама
             </div>
           </div>
@@ -426,7 +436,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script charset="utf-8" type="text/javascript" src="js/main.js"></script>
   </body>
 
   </html>

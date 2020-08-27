@@ -22,20 +22,23 @@
 .m-b-16 {
   margin-bottom: 16px;
 }
+.m-b-30 {
+  margin-bottom: 30px;
+}
 .m-t-b-8 {
   margin: 8px 0;
 }
 .overflow-hidden {
   overflow: hidden;
 }
-.none768 {
+.hidden-768 {
   @media (max-width: 767px) {
     & {
       display: none;
     }
   }
 }
-.none576 {
+.hidden-576 {
   @media (max-width: 575px) {
     & {
       display: none;

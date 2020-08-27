@@ -1,5 +1,5 @@
 function mouseenter() {
-  $('.wrapper__main_visit-etc_work-this-button').click(function(){
+  $('.js-work-this').click(function(){
     if (!$(this).data('status')) {
       $(this).html('Отменить запрос в сотрудники');
       $(this).data('status', true);
